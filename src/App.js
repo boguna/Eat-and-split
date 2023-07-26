@@ -40,7 +40,9 @@ export default function App() {
       <div className="sidebar">
         <FriendsList />
         {showAddFriend && <FormAddFriend />}
-        <Button onClick={handleAddFriend}>Add friend</Button>
+        <Button onClick={handleAddFriend}>
+          {showAddFriend ? "Close" : "Add friend"}
+        </Button>
       </div>
       <FormSplitBill />
     </div>
