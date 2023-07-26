@@ -16,10 +16,7 @@ const initialFriends = [
     name: "Anthony",
     image: "https://i.pravatar.cc/48?u=499476",
     balance: 0,
-  }
-]
+  },
+];
 
-
-export default App() {
-
-}
+export default function App() {}
