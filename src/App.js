@@ -28,7 +28,7 @@ function Button({ children, onClick }) {
     </button>
   );
 }
-//App
+//App function
 
 export default function App() {
   const [showAddFriend, setShowAddFriend] = useState(false);
